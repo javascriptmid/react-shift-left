@@ -1,7 +1,7 @@
-import React from "react";
-import Button from "@material-ui/core/Button";
+import React from 'react';
+import Button from '@material-ui/core/Button';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           variant="contained"
           color="primary"
         >
-        Learn React
+          Learn React
         </Button>
       </header>
     </div>

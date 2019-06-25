@@ -1,3 +1,3 @@
-import TitleLogo from "./TitleLogo";
+import TitleLogo from './TitleLogo';
 
 export default TitleLogo;
