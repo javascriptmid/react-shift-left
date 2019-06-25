@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> starts trivia 1`] = `
+<div
+  className="MuiContainer-root Page MuiContainer-maxWidthSm"
+>
+  <div
+    className="Page"
+  >
+    <div
+      className="wrapper"
+    >
+      <img
+        alt="App logo"
+        className="TitleLogo"
+        src="img/simpsons-logo.png"
+      />
+      <button
+        onClick={[Function]}
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            START PLAYING
+          </span>
+        </button>
+      </button>
+    </div>
+  </div>
+</div>
+`;

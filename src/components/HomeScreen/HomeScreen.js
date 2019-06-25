@@ -6,7 +6,7 @@ import Page from '../Page';
 import { TitleLogo } from './components';
 import Styles from './HomeScreen.module.css';
 
-export default function HomeScreen({ navigation }) {
+export default function HomeScreen() {
   return (
     <Page>
       <div className={Styles.wrapper}>
