@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Button from "@material-ui/core/Button";
+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,14 +12,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+        <Button
           rel="noopener noreferrer"
+          target="_blank"
+          href="https://reactjs.org"
+          className="App-link"
+          variant="contained"
+          color="primary"
         >
-          Learn React
-        </a>
+        Learn React
+        </Button>
       </header>
     </div>
   );
