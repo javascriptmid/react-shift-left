@@ -1,3 +1,3 @@
-import App from './App';
+import TriviaResultScreen from './TriviaResultScreen';
 
-export default App;
+export default TriviaResultScreen;
