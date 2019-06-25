@@ -1,3 +1,3 @@
-import App from "./App";
+import HomeScreen from "./HomeScreen";
 
-export default App;
+export default HomeScreen;

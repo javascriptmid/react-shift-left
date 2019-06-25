@@ -1,0 +1,5 @@
+.TitleLogo {
+  object-fit: contain;
+  width: 256px;
+  max-height: 192px;
+}
