@@ -2,7 +2,7 @@ import config from './config';
 
 const URL = {
   local: 'localhost',
-  remote: 'http://hub-cloud.browserstack.com/wd/hub',
+  remote: 'hub-cloud.browserstack.com',
 };
 
 const PORT = {
