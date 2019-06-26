@@ -5,9 +5,13 @@ jest.mock('react-router-dom', () => {
     return <button {...props} onClick={jest.fn} />;
   }
 
+  function Route(props) {
+    return <div />;
+  }
+
   return {
     Link,
-    BrowserRouter: props => <div {...props} />,
-    Route: props => <div {...props} />,
+    BrowserRouter: Route,
+    Route,
   };
 });
