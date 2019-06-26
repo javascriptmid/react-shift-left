@@ -7,4 +7,8 @@ describe('<App />', () => {
   it('renders correctly', () => {
     renderer.create(<App />);
   });
+
+  it('renders correctly 2', () => {
+    renderer.create(<App />);
+  });
 });
