@@ -8,6 +8,7 @@ export default function AnswerOptionList({ options, onOptionPress }) {
 
   return options.map(option => (
     <Button
+      id="answer-option"
       variant="contained"
       color="secondary"
       onClick={handleOptionPress(option)}

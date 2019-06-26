@@ -43,7 +43,7 @@ export default function TriviaScreen({ history }) {
   };
 
   return (
-    <Page>
+    <Page id="trivia-screen">
       <Typography className={Styles.Title} variant="h4">
         {currentQuestion.text}
       </Typography>

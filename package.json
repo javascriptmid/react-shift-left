@@ -14,16 +14,22 @@
   },
   "devDependencies": {
     "@testing-library/react": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "custom-env": "^1.0.2",
     "husky": ">=1",
     "lint-staged": ">=8",
     "prettier": "1.17.1",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "selenium-standalone": "^6.16.0",
+    "wd": "^1.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "coverage": "npm test -- --coverage --watchAll"
+    "coverage": "npm test -- --coverage --watchAll",
+    "e2e": "jest --config jest.e2e.json",
+    "selenium": "selenium-standalone install && selenium-standalone start"
   },
   "eslintConfig": {
     "extends": "react-app"

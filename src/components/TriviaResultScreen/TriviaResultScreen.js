@@ -11,7 +11,7 @@ export default function TriviaResultScreen({ history, location }) {
   };
 
   return (
-    <Page>
+    <Page id="trivia-result-screen">
       <div className={Styles.Content}>
         <Typography align="center" variant="h4">
           {location.state.isWinner
@@ -19,7 +19,12 @@ export default function TriviaResultScreen({ history, location }) {
             : 'Eres tonto como una piedra y feo como una blasfemia'}
         </Typography>
 
-        <Button variant="outlined" color="primary" onClick={handleResetTrivia}>
+        <Button
+          id="restart-trivia-button"
+          variant="outlined"
+          color="primary"
+          onClick={handleResetTrivia}
+        >
           VOLVER A COMENZAR
         </Button>
       </div>

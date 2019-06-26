@@ -8,12 +8,12 @@ import Styles from './HomeScreen.module.css';
 
 export default function HomeScreen() {
   return (
-    <Page>
+    <Page id="home-screen">
       <div className={Styles.wrapper}>
         <TitleLogo />
 
         <Link to="/trivia">
-          <Button color="primary" variant="outlined">
+          <Button id="start-playing-button" color="primary" variant="outlined">
             START PLAYING
           </Button>
         </Link>
